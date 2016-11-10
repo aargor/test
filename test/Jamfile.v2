@@ -155,8 +155,7 @@ test-suite "writing-test-ts"
   [ boost.test-self-test run : writing-test-ts : tools-debuggable-test  : : : : : : $(requirements_boost_test_full_support) ]
   [ boost.test-self-test run : writing-test-ts : test-dataset-over-tuples  : : : : : : $(requirements_datasets) ]
   [ boost.test-self-test run : writing-test-ts : test-macro-global-fixture ]
-  [ boost.test-self-test run-fail : writing-test-ts : test-macro-global-fixture-assertion  : : : : : ] # : <testing.arg>--no_result_code ]
-  [ boost.test-self-test run : writing-test-ts : test-macro-global-fixture-failure : included : : : : : ] #: <testing.arg>--no_result_code ]
+    [ boost.test-self-test run : writing-test-ts : test-macro-global-fixture-failure : included ]
 ;
 
 #_________________________________________________________________________________________________#
