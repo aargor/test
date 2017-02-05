@@ -38,5 +38,5 @@ BOOST_AUTO_TEST_CASE(test1)
     //using printing_test::user_defined_type;
     printing_test::user_defined_type t(10);
     BOOST_CHECK_EQUAL(t, 10);
-    BOOST_TEST(t == 11);
+    BOOST_TEST(t == 10);
 }
